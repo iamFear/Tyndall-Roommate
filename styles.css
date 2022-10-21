@@ -65,7 +65,9 @@ p {
 
 .details-container {
   height: 72vh;
-  background-color: #e9ecef;
+  width: 100vw;
+  margin: 0 auto;
+  background-color: #f8f9fa;
 }
 
 .details-inner {
@@ -85,4 +87,5 @@ p {
   flex-direction: column;
   gap: 10px;
   list-style: circle;
+  color: #212529;
 }
