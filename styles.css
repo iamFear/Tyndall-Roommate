@@ -45,8 +45,8 @@ header h1 {
   padding-top: 16%;
 }
 
-a:link,
-a:visited {
+header a:link,
+header a:visited {
   display: inline-block;
   font-weight: 500;
   font-size: 24px;
@@ -64,5 +64,25 @@ p {
 }
 
 .details-container {
-  height: 50vh;
+  height: 72vh;
+  background-color: #e9ecef;
+}
+
+.details-inner {
+  padding-left: 75px;
+  padding-top: 50px;
+}
+
+.details-inner h1 {
+  font-size: 44px;
+  color: #212529;
+  margin-bottom: 24px;
+  text-decoration: underline;
+}
+
+.details-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style: circle;
 }
