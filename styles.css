@@ -67,7 +67,7 @@ p {
   height: 72vh;
   width: 100vw;
   margin: 0 auto;
-  background-color: #f8f9fa;
+  background-color: #fff;
 }
 
 .details-inner {
@@ -88,4 +88,33 @@ p {
   gap: 10px;
   list-style: circle;
   color: #212529;
+}
+
+.privacy-policy {
+  width: 100vw;
+  height: 90vh;
+  color: #fff;
+  margin: 0 auto;
+
+  background-image: linear-gradient(
+      rgba(24, 24, 24, 0.7),
+      rgba(24, 24, 24, 0.7)
+    ),
+    url(building-photos/canopy-view.jpg);
+  background-size: cover;
+}
+
+.privacy-inner {
+  text-align: center;
+  width: 90vw;
+  margin: 60px auto;
+
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.privacy-inner h1 {
+  font-size: 54px;
+  text-decoration: underline;
 }
